@@ -1,80 +1,55 @@
-span {
-    font-family: Space Grotesk;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 64px;
-    color: #000000;
-}
-h1{
-    font-family: Space Grotesk;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 64px;
-    color: #626CC3;
-}
-h2 {
-    font-family: Space Grotesk;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 64px;
-}
-.content {
+.content{
     display: flex;
-    flex-flow: row wrap;
-    padding: 20px;
 }
-.sidebar {
+.sidebar{
     display: flex;
     flex-direction: column;
-}
-.avatar {
-    position: static;
+    background: #222222;
     width: 356px;
-    height: 356px;
-    left: 0px;
-    top: 0px;
-}
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: static;
-    width: 356px;
-    height: 1084px;
+    height: 1344px;
     left: 0px;
     top: 356px;
-    background: #222222;
 }
-.logo {
+.avatar{
+    width: 356px;
+    height: 356px;
+}
+.list_info{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 5px;
-    position: static;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
     width: 104px;
     height: 24px;
     left: 48px;
     top: 176px;
 }
-.main {
+.main{
     display: flex;
     flex-direction: column;
+    height: 1344px;
 }
-.intro {
+.intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    padding: 0px 135px;
-    position: static;
     width: 1084px;
     height: 356px;
-    left: 0px;
-    top: 0px;
+    padding: 0px 135px;
 }
-
-
-
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 135px 80px;
+    background: #b1b3cc;
+}
+.shills{
+    display: flex;
+    flex-direction: column;
+}
+.item--skills{
+    display: flex;
+}
