@@ -1,0 +1,29 @@
+.content{
+    display: grid;
+    grid-template-areas:
+        "avatar intro"
+        "info details"
+        "logo projects"
+        "logo skilss";
+}
+.avatar{
+    grid-area: avatar;
+}
+.info{
+    grid-area: info;
+}
+.logo{
+    grid-area: logo;
+}
+.intro{
+    grid-area: intro;
+}
+.details{
+    grid-area: details;
+}
+.projets{
+    grid-area: projects;
+}
+.skills{
+    grid-area: skilss;
+}
