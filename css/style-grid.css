@@ -3,8 +3,8 @@
     grid-template-areas:
         "avatar intro"
         "info details"
-        "logo projects"
-        "logo skilss";
+        "info projects"
+        "info skilss";
 }
 .avatar{
     grid-area: avatar;
@@ -13,7 +13,7 @@
     grid-area: info;
 }
 .logo{
-    grid-area: logo;
+    display: flex;
 }
 .intro{
     grid-area: intro;
@@ -26,4 +26,10 @@
 }
 .skills{
     grid-area: skilss;
+}
+.item--skills{
+    display: flex;
+}
+.sidebar{
+    background: #222222;
 }
