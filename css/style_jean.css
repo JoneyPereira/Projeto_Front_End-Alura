@@ -1,6 +1,32 @@
 * {
   max-width: 100%;
 }
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+span{
+  font-size: 48px;
+}
+.list_info > li > span{
+  font-size: 18px;
+
+}
+h1{
+  font-size: 54px;
+  font-style: italic;
+}
+h2{
+  font-size: 38px;
+}
+h3{
+  font-size: 18px;
+}
+p{
+  font-size: 16px;
+}
+
+
 .content {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -65,6 +91,14 @@
 .list_details details,
 .details_content {
   margin: 10px 0;
+}
+
+.item_skills{
+  display: flex;
+}
+
+.item_skills img{
+  margin: 35px;
 }
 
 @media print {
