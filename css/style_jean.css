@@ -92,13 +92,26 @@ p{
 .details_content {
   margin: 10px 0;
 }
+button {
+  background-color: black;
+  border: none;
+  font-size: 30px;
+  color: floralwhite;
+}
+button:focus{
+  outline-style: none;
+}
 
-.item_skills{
+.item_skills {
   display: flex;
 }
 
-.item_skills img{
+.item_skills img {
   margin: 35px;
+}
+.details_list {
+  margin: auto;
+
 }
 
 @media print {
