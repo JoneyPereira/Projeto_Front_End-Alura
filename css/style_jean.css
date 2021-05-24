@@ -123,15 +123,6 @@ summary::after {
   content: "";
   font-size: 38px;
 }
-button {
-  background-color: transparent;
-  border: none;
-  font-size: 30px;
-  color: red;
-}
-button:focus{
-  outline-style: none;
-}
 
 @media print {
   .sidebar {
